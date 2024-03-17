@@ -2,7 +2,6 @@ use parquet::file::reader::{FileReader, SerializedFileReader};
 use parquet::record::Field;
 use rayon::prelude::*;
 use std::fs::File;
-use std::sync::Arc;
 use std::time::Instant;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
