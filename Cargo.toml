@@ -1,13 +1,9 @@
 [package]
-name = "hermes-db"
+name = "r-hermes-db"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-arrow = "50.0.0"
 cached = "0.49.2"
-parquet = "50.0.0"
-rayon = "1.9.0"
-tokio = {version = "1.36.0", features = ["full"]}
